@@ -10,7 +10,7 @@ import {getNotesForFolder, findNote, findFolder} from '../notes-helpers';
 import './App.css';
 
 class App extends Component {
-    state = {
+    state = { 
         notes: [],
         folders: []
     };
